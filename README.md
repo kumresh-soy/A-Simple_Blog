@@ -1,8 +1,5 @@
 # A Blog
 
-<p align="center">
-    A Simple Blog App
-</p>
 
 
 ## Quick demo
