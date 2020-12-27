@@ -1,0 +1,131 @@
+html, button, input, select, textarea {
+	color: #222;
+}
+::-moz-selection {
+ background: #f2c2c9;
+ color: #a4003a;
+ text-shadow: none;
+}
+::selection {
+	background: #d3d3d3;
+	color: #a4003a;
+	text-shadow: none;
+}
+.topHome {
+  background: #018dce;
+  color: #fff;
+	position: fixed;
+	bottom: 20px;
+	right: 20px;
+  z-index: 5;
+
+  width: 40px; 
+  height: 40px; 
+  padding: 6px 0px; 
+  border-radius: 25px; 
+  font-size: 10px; 
+  text-align: center; 
+}
+
+	
+#aboutUs {
+	background:#F2F2F2;
+	padding-top: 35px;
+	padding-bottom: 25px;
+	overflow: hidden;
+}
+#aboutUs .feature {
+	margin-top: 30px;
+	margin-bottom: 54px;
+}
+#aboutUs .right {
+	padding-left: 32px;
+	float: right;
+}
+#aboutUs .left {
+	padding-right: 32px;
+	float: left;
+}
+#aboutUs h3 {
+	font: 18px/34px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	color: #222;
+	margin-top:0px;
+}
+.dataTxt h4 {
+font-size: 20px;
+border-bottom: 2px solid #DDDDDD;
+line-height: 36px;
+color:#000;
+}
+.fluid-video-wrapper {
+	margin-top: 18px;
+}
+#aboutUs .left {
+	padding-right: 32px;
+	float: left;
+}
+#aboutUs .right {
+	float: right;
+}
+
+#contactUs .heading h2 {
+	color: #fff;
+}
+#contactUs p{
+  color: rgb(209, 209, 209);
+}
+.form-contact label{
+  color:rgb(209, 209, 209);
+}
+#contactUs {
+  background:#222; 
+ }
+ #contactUs .btn {
+   border-radius: 0px !important;
+   background: #D11027;
+ }
+
+ .navbar-brand h3{
+	text-shadow: 3px 3px 0px #003449, 7px 7px 0px rgba(7, 6, 6, 0.452);
+ }
+
+ .wrapper {
+    display: flex;
+    width: 50%;
+    align-items: stretch;
+}
+
+#sidebar {
+    min-width: 250px;
+	max-width: 250px;
+	min-height: 100vh;
+}
+
+#sidebar.active {
+    margin-left: -250px;
+}
+
+a[data-toggle="collapse"] {
+    position: relative;
+}
+
+.dropdown-toggle::after {
+    display: block;
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+}
+
+@media (max-width: 768px) {
+    #sidebar {
+        margin-left: -250px;
+    }
+    #sidebar.active {
+        margin-left: 0;
+    }
+}
+
+/* testjbkjcc */

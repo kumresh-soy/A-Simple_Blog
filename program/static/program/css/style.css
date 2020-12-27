@@ -1,0 +1,85 @@
+
+pre code {
+    background: #f5f2f0;
+    border: 1px solid #ddd;
+    border-left: 3px solid #047cb4;
+    color: #666;
+    page-break-inside: avoid;
+    font-family: monospace;
+    font-size: 15px;
+    line-height: 1.6;
+    margin-bottom: 1.6em;
+    max-width: 100%;
+    overflow: auto;
+    padding: 1em 1.5em;
+    display: block;
+    word-wrap: break-word;
+}
+  
+.sidebar {
+    background: #2f323a;
+    margin-top: 0px;
+    padding-top: 50px;
+    position: fixed;
+    left: 0;
+    overflow: auto;
+    width: 250px;
+    height: 100%;
+    transition: 0.5s;
+    transition-property: left;
+}
+  
+.sidebar h4 {
+  color: rgb(236, 233, 42);
+  margin-top: 0;
+  
+}
+  
+.sidebar a {
+  color: #fff;
+  display: block;
+  width: 100%;
+  line-height: 40px;
+  text-decoration: none;
+  padding-left: 40px;
+  box-sizing: border-box;
+  transition: 0.5s;
+
+}
+
+.sidebar i {
+  padding-right: 10px;
+}
+  
+a.nav-link {
+  color: rgb(255, 255, 255);
+}
+
+a.nav-link:hover {
+  color: black;
+  background-color: #e9cd79;
+}
+
+a.nav-link.active {
+  color: black;
+  background-color: #ffc107;
+  font-weight: bold;
+}
+
+@media screen and (max-width: 700px) {
+  .sidebar {
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+  .sidebar a {float: left;}
+  div.content {margin-left: 0;}
+}
+
+/* On screens that are less than 400px, display the bar vertically, instead of horizontally */
+@media screen and (max-width: 400px) {
+  .sidebar a {
+    text-align: center;
+    float: none;
+  }
+}
